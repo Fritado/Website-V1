@@ -92,23 +92,7 @@ const NavBar = () => {
             <ul className='navbar-nav menu-open text-lg-end'>
               <li className='menu-item-has-children'>
                 <a href='#'>Home</a>
-                <ul className='sub-menu'>
-                  <li>
-                    <Link to='/'>Home 01</Link>
-                  </li>
-                  <li>
-                    <Link to='/index-2'>Home 02</Link>
-                  </li>
-                  <li>
-                    <Link to='/index-3'>Home 03</Link>
-                  </li>
-                  <li>
-                    <Link to='/index-4'>Home 04</Link>
-                  </li>
-                  <li>
-                    <Link to='/index-5'>Home 05</Link>
-                  </li>
-                </ul>
+                
               </li>
               <li className='menu-item-has-children'>
                 <a href='#'>Service</a>
