@@ -54,8 +54,8 @@ const NavBar = () => {
       ></div>
 
       {/* navbar start */}
-      <nav className="navbar navbar-area  navbar-expand-lg">
-        <div className="container nav-container custom-container">
+      <nav className="navbar navbar-area navbar-expand-lg">
+        <div className="container nav-container custom-container" style={{maxWidth:"px"}}>
           <div className="responsive-mobile-menu">
             <button
               onClick={menuActive}
