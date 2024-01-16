@@ -1,8 +1,8 @@
 import React from "react";
-import BlogDetailsArea from "../components/BlogDetailsArea";
-import Breadcrumb from "../components/Breadcrumb";
-import FooterOne from "../components/FooterOne";
-import NavBar from "../components/NavBar";
+import BlogDetailsArea from "../components/BlogComponents/BlogDetailsArea";
+import Breadcrumb from "../components/commonComp/Breadcrumb";
+import FooterOne from "../components/commonComp/FooterOne";
+import NavBar from "../components/commonComp/NavBar";
 
 const BlogDetails = () => {
   return (

@@ -50,7 +50,7 @@ const BlogGroup = () => {
                   </p>
                   <Link
                     className='btn btn-border-base mt-3'
-                    to='/service-details'
+                    to='/blog-details'
                   >
                     Touch More <FaPlus />
                   </Link>

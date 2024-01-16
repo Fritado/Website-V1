@@ -2,19 +2,18 @@ import React from "react";
 import Breadcrumb from "../components/commonComp/Breadcrumb";
 import FooterOne from "../components/commonComp/FooterOne";
 import NavBar from "../components/commonComp/NavBar";
-import TeamDetailsGroup from "../components/TeamComp/TeamDetailsGroup";
 
-const TeamDetails = () => {
+const Benefits = () => {
   return (
     <>
       {/* Navigation Bar */}
       <NavBar />
 
-      {/* Breadcrumb */}
-      <Breadcrumb title={"Team Details"} />
+      {/* Navigation Bar */}
+      <Breadcrumb title={"Benefits"} />
 
-      {/* Team Details Group */}
-      <TeamDetailsGroup />
+      
+      <div className="pd-top-120 pd-bottom-120"></div>
 
       {/* Footer One */}
       <FooterOne />
@@ -22,4 +21,4 @@ const TeamDetails = () => {
   );
 };
 
-export default TeamDetails;
+export default Benefits;

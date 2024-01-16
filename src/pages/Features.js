@@ -1,20 +1,24 @@
 import React from "react";
-import BlogGroup from "../components/BlogComponents/BlogGroup";
 import Breadcrumb from "../components/commonComp/Breadcrumb";
 import FooterOne from "../components/commonComp/FooterOne";
 import NavBar from "../components/commonComp/NavBar";
+import PricingAreaOne from "../components/FeaturesComp/PricingAreaOne";
+import ServiceAreaGroup from "../components/FeaturesComp/ServiceAreaGroup";
 
-const Blog = () => {
+const Features= () => {
   return (
     <>
       {/* Navigation Bar */}
       <NavBar />
 
       {/* Navigation Bar */}
-      <Breadcrumb title={"Blog"} />
+      <Breadcrumb title={"Features"} />
 
-      {/* Blog Group */}
-      <BlogGroup />
+      {/* Service Area One */}
+      <ServiceAreaGroup />
+
+      {/* Pricing Area One */}
+      <PricingAreaOne />
 
       {/* Footer One */}
       <FooterOne />
@@ -22,4 +26,4 @@ const Blog = () => {
   );
 };
 
-export default Blog;
+export default Features;

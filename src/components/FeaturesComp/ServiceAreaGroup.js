@@ -1,7 +1,7 @@
 import React from "react";
 import { FaPlus } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import serviceList from "../scripts/serviceList";
+import serviceList from "../../scripts/serviceList";
 
 const ServiceAreaGroup = () => {
   return (

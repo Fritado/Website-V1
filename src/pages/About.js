@@ -1,13 +1,13 @@
 import React from "react";
-import AboutAreaOne from "../components/AboutAreaOne";
-import Breadcrumb from "../components/Breadcrumb";
-import ContactAreaOne from "../components/ContactAreaOne";
-import CounterAreaOne from "../components/CounterAreaOne";
-import FaqAreaOne from "../components/FaqAreaOne";
-import FooterOne from "../components/FooterOne";
-import NavBar from "../components/NavBar";
-import TeamAreaOne from "../components/TeamAreaOne";
-import WorkProcessOne from "../components/WorkProcessOne";
+import AboutAreaOne from "../components/AboutComp/AboutAreaOne";
+import Breadcrumb from "../components/commonComp/Breadcrumb";
+import ContactAreaOne from "../components/AboutComp/ContactAreaOne";
+import CounterAreaOne from "../components/AboutComp/CounterAreaOne";
+import FaqAreaOne from "../components/AboutComp/FaqAreaOne";
+import FooterOne from "../components/commonComp/FooterOne";
+import NavBar from "../components/commonComp/NavBar";
+import TeamAreaOne from "../components/AboutComp/TeamAreaOne";
+import WorkProcessOne from "../components/AboutComp/WorkProcessOne";
 
 const About = () => {
   return (
